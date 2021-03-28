@@ -1,0 +1,19 @@
+{
+  "name": "@edudash/sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduDash/edudash-sdk-js.git"
+  },
+  "author": "Arvin Abdollahzadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduDash/edudash-sdk-js/issues"
+  },
+  "homepage": "https://github.com/EduDash/edudash-sdk-js#readme"
+}
