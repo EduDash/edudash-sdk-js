@@ -5,7 +5,7 @@
   "main": "lib/edudash.js",
   "types": "types/2021-04-03/index.d.ts",
   "scripts": {
-    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha",
     "unit": "mocha",
     "build": "tsc --project ./",
     "watch": "tsc -w",
@@ -29,6 +29,7 @@
     "chai": "^4.3.4",
     "codecov": "^3.8.1",
     "eslint": "^7.23.0",
+    "expect.js": "^0.3.1",
     "graceful-fs": "^4.2.6",
     "istanbul": "^0.4.5",
     "mocha": "^8.3.2",
