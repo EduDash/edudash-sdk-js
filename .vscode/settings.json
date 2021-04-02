@@ -1,0 +1,19 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.preferences.quoteStyle": "single",
+  "git.ignoreLimitWarning": true
+}
