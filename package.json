@@ -2,10 +2,14 @@
   "name": "@edudash/sdk",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/edudash.js",
+  "types": "types/2021-04-03/index.d.ts",
   "scripts": {
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec",
-    "unit": "mocha"
+    "unit": "mocha",
+    "build": "tsc --project ./",
+    "watch": "tsc -w",
+    "fix": "node ./scripts/updateAPIVersion.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +24,16 @@
   "devDependencies": {
     "@types/mocha": "^8.2.2",
     "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
     "chai": "^4.3.4",
     "codecov": "^3.8.1",
+    "eslint": "^7.23.0",
+    "graceful-fs": "^4.2.6",
     "istanbul": "^0.4.5",
     "mocha": "^8.3.2",
     "nyc": "^15.1.0",
+    "typedoc": "^0.20.34",
     "typescript": "^4.2.3"
   },
   "keywords": [
