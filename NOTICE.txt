@@ -1,0 +1,5 @@
+EduDash SDK for JavaScript
+Copyright 2021 EduDash.org. All Rights Reserved.
+
+This product includes software developed at
+EduDash (https://www.edudash.org/)
