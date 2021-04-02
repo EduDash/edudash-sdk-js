@@ -10,9 +10,9 @@
     "build": "tsc --project ./",
     "watch": "tsc -w",
     "fix": "node ./scripts/updateAPIVersion.js",
-    "release:major": "npm run fix && changelog -M && git add . && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin master && git push origin --tags",
-    "release:minor": "npm run fix && changelog -m && git add . && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin master && git push origin --tags",
-    "release:patch": "npm run fix && changelog -p && git add . && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin master && git push origin --tags"
+    "release:major": "npm run fix && changelog -M && git add . && git commit -m updated CHANGELOG.md && npm version major && git push origin master && git push origin --tags",
+    "release:minor": "npm run fix && changelog -m && git add . && git commit -m updated CHANGELOG.md && npm version minor && git push origin master && git push origin --tags",
+    "release:patch": "npm run fix && changelog -p && git add . && git commit -m updated CHANGELOG.md && npm version patch && git push origin master && git push origin --tags"
   },
   "repository": {
     "type": "git",
