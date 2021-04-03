@@ -1,4 +1,4 @@
-/// <reference lib="esnext.asynciterable" />
+///<reference lib="esnext.asynciterable" />
 /// <reference types="node" />
 
 import { Agent } from 'http';

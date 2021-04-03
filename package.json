@@ -3,14 +3,14 @@
   "version": "2.1.1",
   "description": "",
   "main": "lib/edudash.js",
-  "typings": "types/2021-04-03/index.d.ts",
+  "types": "types/2021-04-03/index.d.ts",
   "scripts": {
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha",
     "unit": "mocha",
     "fix": "node ./scripts/updateAPIVersion.js",
-    "release:major": "npm run fix && changelog -M && git add . && git commit -m updated CHANGELOG.md && npm version major && git push origin master && git push origin --tags",
-    "release:minor": "npm run fix && changelog -m && git add . && git commit -m updated CHANGELOG.md && npm version minor && git push origin master && git push origin --tags",
-    "release:patch": "npm run fix && changelog -p && git add . && git commit -m updated CHANGELOG.md && npm version patch && git push origin master && git push origin --tags"
+    "release:major": "npm run fix && changelog -M && git add . && git commit -am \"updated CHANGELOG.md\" && npm version major && git push origin master && git push origin --tags",
+    "release:minor": "npm run fix && changelog -m && git add . && git commit -am \"updated CHANGELOG.md\" && npm version minor && git push origin master && git push origin --tags",
+    "release:patch": "npm run fix && changelog -p && git add . && git commit -am \"updated CHANGELOG.md\" && npm version patch && git push origin master && git push origin --tags"
   },
   "repository": {
     "type": "git",

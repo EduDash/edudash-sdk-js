@@ -1,4 +1,4 @@
-/// <reference path="../lib.d.ts" />
+///<reference path="../lib.d.ts" />
 
 declare module 'edudash' {
   export namespace EduDash {}
