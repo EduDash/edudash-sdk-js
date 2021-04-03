@@ -24,7 +24,6 @@
   "homepage": "https://github.com/EduDash/edudash-sdk-js#readme",
   "devDependencies": {
     "@types/mocha": "^8.2.2",
-    "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "chai": "^4.3.4",
@@ -46,6 +45,7 @@
     "nodejs"
   ],
   "dependencies": {
+    "@types/node": "^14.14.37",
     "qs": "^6.10.1"
   }
 }
