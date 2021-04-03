@@ -3,12 +3,10 @@
   "version": "1.0.6",
   "description": "",
   "main": "lib/edudash.js",
-  "types": "types/2021-04-03/index.d.ts",
+  "typings": "types/2021-04-03/index.d.ts",
   "scripts": {
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha",
     "unit": "mocha",
-    "build": "tsc --project ./",
-    "watch": "tsc -w",
     "fix": "node ./scripts/updateAPIVersion.js",
     "release:major": "npm run fix && changelog -M && git add . && git commit -m updated CHANGELOG.md && npm version major && git push origin master && git push origin --tags",
     "release:minor": "npm run fix && changelog -m && git add . && git commit -m updated CHANGELOG.md && npm version minor && git push origin master && git push origin --tags",
