@@ -15,5 +15,10 @@
   "javascript.preferences.quoteStyle": "single",
   "typescript.disableAutomaticTypeAcquisition": true,
   "typescript.preferences.quoteStyle": "single",
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": [
+    "Emptyable",
+    "Idempotency",
+    "edudash"
+  ]
 }

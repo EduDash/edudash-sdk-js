@@ -5,22 +5,6 @@ import { Agent } from 'http';
 
 declare module 'edudash' {
   namespace EduDash {
-    export class EduDashResource {
-      static extend<
-        T extends { [props: string]: any } & {
-          includeBasic?: Array<
-            'create' | 'retrieve' | 'update' | 'list' | 'del'
-          >;
-        }
-      >(spec: T): EduDashResource & T;
-
-      static method(spec: {
-        method: string;
-        path: string;
-        methodType?: 'list';
-      }): (...args: any[]) => object;
-    }
-
     export type LatestApiVersion = '2021-04-03';
     export type HttpAgent = Agent;
 
@@ -99,6 +83,66 @@ declare module 'edudash' {
        * Use a specific API Key for a request.
        */
       apiKey?: String;
+
+      /**
+       * Idempotency Key
+       * This prevents requests from happening twice when there is a network disconnection
+       */
+      idempotencyKey?: string;
+
+      /**
+       * Account id for which you are making a request
+       */
+      edudashAccount?: string;
+
+      /**
+       * It is recommended that you update your account's API Version to
+       * the latest version in order to use Typescript with this library.
+       *
+       * To remain on the default API version, pass `null` or another version
+       * instead of the latest version.
+       *
+       * @docs https://docs.edudash.org/
+       */
+      apiVersion?: string;
+
+      /**
+       * Automatic network retries up to the specified number of retries (default 0).
+       */
+      maxNetworkRetries?: number;
+
+      /**
+       * Timeout for the request in milliseconds
+       */
+      timeout?: number;
+    }
+
+    /**
+     * For URL-Encoded requests, `null` parameters need to be encoded
+     * as an empty string.
+     */
+    export type Emptyable<T> = null | '' | T;
+
+    export interface RequestEvent {
+      apiVersion: string;
+      account?: string;
+      idempotencyKey?: string;
+      method: string;
+      path: String;
+      requestStartTime: number;
+    }
+
+    export interface ResponseEvent {
+      apiVersion: string;
+      account?: string;
+      idempotencyKey?: string;
+      method: string;
+      path: string;
+      status: number;
+      requestId: string;
+      elapsed: number;
+      requestStartTime: number;
+      requestEndTime: number;
     }
   }
 }
