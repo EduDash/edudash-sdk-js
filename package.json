@@ -1,6 +1,6 @@
 {
   "name": "@edudash/sdk",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "lib/edudash.js",
   "typings": "types/2021-04-03/index.d.ts",
