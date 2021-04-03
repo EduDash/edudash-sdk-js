@@ -29,7 +29,7 @@ const main = () => {
   replaceVersion('README.md', 'apiVersion: [\'"]API_VERSION[\'"]');
   replaceVersion('package.json', '"types": "types/API_VERSION/index.d.ts"');
   replaceVersion(
-    'types/lib.d.ts',
+    'lib/typings/lib.ts',
     'export type LatestApiVersion = [\'"]API_VERSION[\'"]'
   );
 };
