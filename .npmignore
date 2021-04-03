@@ -5,5 +5,5 @@
 !/README.md
 !/VERSION
 !/package.json
-!/lib/**/*
+!/dist/**/*
 !/types/**/*
