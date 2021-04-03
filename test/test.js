@@ -6,9 +6,3 @@ describe('test', function () {
     expect(1 === 1).to.equal(true);
   });
 });
-
-console.log(
-  new EduDash('arvin', {
-    host: 'api',
-  })
-);
