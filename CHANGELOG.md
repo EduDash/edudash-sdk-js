@@ -10,6 +10,12 @@
 
 *  push again ([c699603a](https://github.com/EduDash/edudash-sdk-js/commit/c699603afa45db4bba5abf28849f013a3b6c97bb))
 
+### 2.1.0 (2021-04-03)
+
+##### Bug Fixes
+
+*  push again ([c699603a](https://github.com/EduDash/edudash-sdk-js/commit/c699603afa45db4bba5abf28849f013a3b6c97bb))
+
 ## 2.0.0 (2021-04-03)
 
 ##### New Features
