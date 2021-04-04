@@ -59,7 +59,7 @@ export class EduDash extends EventEmitter {
       typescript: false,
     };
 
-    this.props = _config;
+    this.props = _config || {};
 
     if (
       this.props.protocol &&

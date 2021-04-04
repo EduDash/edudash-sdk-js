@@ -27,26 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23cae8db-95bd-47f4-94eb-429a7db48ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sdk-js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/edudash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/structs/EduDash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/structs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/structs/lib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/typings/EduDashApiConfiguration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/typings/EduDashUserAgent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/typings/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/typings/lib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/edudash.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/edudash.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/structs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/structs/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617578370508</updated>
-      <workItem from="1617578372457" duration="792000" />
+      <workItem from="1617578372457" duration="825000" />
+      <workItem from="1617579474712" duration="20000" />
     </task>
     <servers />
   </component>
@@ -116,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
