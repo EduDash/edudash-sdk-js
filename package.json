@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "",
   "main": "dist/edudash.js",
-  "types": "./types",
+  "types": "./types/edudash.d.ts",
   "scripts": {
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha",
     "unit": "mocha",

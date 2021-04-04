@@ -7,3 +7,14 @@
 [![Try on RunKit](https://badge.runkitcdn.com/@edudash/sdk.svg)](https://runkit.com/npm/@edudash/sdk)
 
 This repository is for the development of the EduDash SDK for JavaScript.
+
+## Requirements
+Node 10 or higher.
+
+## Installation
+Install the package with:
+```sh
+npm install edudash --save
+# or
+yarn add edudash
+```
