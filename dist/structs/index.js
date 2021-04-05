@@ -46,7 +46,7 @@ class EduDash extends events_1.default {
             uname: null,
             typescript: false,
         };
-        this.props = _config;
+        this.props = _config || {};
         if (this.props.protocol &&
             this.props.protocol !== 'https' &&
             (!this.props.host || /\.edudash.org$/.test(this.props.host))) {

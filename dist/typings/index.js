@@ -13,3 +13,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./EduDashApiConfiguration"), exports);
 __exportStar(require("./EduDashUserAgent"), exports);
 __exportStar(require("./lib"), exports);
+__exportStar(require("./EduDashErrorRaw"), exports);
