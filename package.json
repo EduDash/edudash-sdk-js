@@ -1,6 +1,6 @@
 {
   "name": "edudash",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "main": "dist/edudash.js",
   "types": "./types/edudash.d.ts",
