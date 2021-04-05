@@ -1,4 +1,4 @@
-import { LatestApiVersion, HttpAgent } from '../typings';
+import { LatestApiVersion, HttpAgent } from './typings';
 
 export interface EduDashConfig {
   /**

@@ -1,4 +1,4 @@
-import { LatestApiVersion, HttpAgent } from '../typings';
+import { LatestApiVersion, HttpAgent } from './typings';
 export interface EduDashConfig {
     /**
      * It is recommended that you update your account's API Version to

@@ -9,6 +9,7 @@
     "outDir": "./dist",
     "declaration": true,
     "declarationDir": "types",
-    "rootDir": "lib"
+    "rootDir": "./lib",
+    "moduleResolution": "node"
   }
 }
